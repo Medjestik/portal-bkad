@@ -5,24 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>БКАД</title>
     <link rel="stylesheet" href="./pages/index.css">
+    <script></script>
 </head>
 <body>
     <main class="main">
         <div class="header">
             <div class="header__logo"></div>
             <ul class="nav">
-                <li class="nav__item"><a class="nav__link" href="">О проекте</a></li>
-                <li class="nav__item"><a class="nav__link" href="">Статистика</a></li>
-                <li class="nav__item"><a class="nav__link" href="">Отзывы</a></li>
-
+                <li class="nav__item"><a class="nav__link" href="javascript:void(0);" data-scroll-nav="1">Программы</a></li>
+                <li class="nav__item"><a class="nav__link" href="javascript:void(0);">О проекте</a></li>
+                <li class="nav__item"><a class="nav__link" href="javascript:void(0);">Статистика</a></li>
+                <li class="nav__item"><a class="nav__link" href="javascript:void(0);">Отзывы</a></li>
+                <li class="nav__item"><a class="nav__link" href="javascript:void(0);">Контакты</a></li>
             </ul>
         </div>
         <div class="main__overlay"></div>
-        <video class="main__video-bg" autoplay="" loop="" muted="">
-            <source src="video/video.mp4" type="video/mp4">
+        <video class="main__video-bg" autoplay="" loop="" muted="" playsinline webkit-playinginline>
+            <source src="video/video-bg.mp4" type="video/mp4">
         </video>
         <h1 class="main__title">Lorem Ipsum</h1>
-        <p class="main__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="main__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <a href="javascript:void(0);" class="main__button-link">
+            <span class="main__button-text">Вход</span>
+        </a>
+
+        <a href="javascript:void(0);" class="main__arrow-link" data-scroll-nav="1">
+            <div class="main__arrow">&or;</div>
+        </a>
     </main>
+    <div class="programs" data-scroll-index="1">Программы</div>
+
+
+
+
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+
+    <!-- popper.min -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- scrollIt -->
+    <script src="js/scrollIt.min.js"></script>
+
+    <!-- animated.headline -->
+    <script src="js/animated.headline.js"></script>
+
+    <!-- wow -->
+    <script src="js/wow.js"></script>
+
+    <!-- jquery.waypoints.min -->
+    <script src="js/jquery.waypoints.min.js"></script>
+
+    <!-- jquery.counterup.min -->
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- jquery.magnific-popup js -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <!-- stellar js -->
+    <script src="js/jquery.stellar.min.js"></script>
+
+    <!-- isotope.pkgd.min js -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    
+    <!-- Map -->
+    <script src="js/map.js"></script>
+
+    <!-- custom scripts -->
+    <script src="js/scripts.js"></script>
+
+    <!-- google map api -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqFuLx8S7A8eianoUhkYMeXpGPvsXp1NM&amp;callback=initMap" async defer></script>
+
+    <!-- contact form scripts -->
+    <script src="js/mailform/jquery.form.min.js"></script>
+    <script src="js/mailform/jquery.rd-mailform.min.c.js"></script>
 </body>
 </html>
