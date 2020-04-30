@@ -8,56 +8,103 @@
     <script></script>
 </head>
 <body>
-    <main class="main">
-        <div class="header">
-            <div class="header__logo"></div>
-            <ul class="nav">
-                <li class="nav__item"><a class="nav__link" href="javascript:void(0);" data-scroll-nav="1">Программы</a></li>
-                <li class="nav__item"><a class="nav__link" href="javascript:void(0);">О проекте</a></li>
-                <li class="nav__item"><a class="nav__link" href="javascript:void(0);">Статистика</a></li>
-                <li class="nav__item"><a class="nav__link" href="javascript:void(0);">Отзывы</a></li>
-                <li class="nav__item"><a class="nav__link" href="javascript:void(0);">Контакты</a></li>
+        <main class="main">
+            <div class="header">
+                <div class="header__logo"></div>
+                <ul class="nav">
+                    <li class="nav__item"><a class="nav__link" href="javascript:void(0);" data-scroll-nav="1">Программы</a></li>
+                    <li class="nav__item"><a class="nav__link" href="javascript:void(0);" data-scroll-nav="2">О проекте</a></li>
+                    <li class="nav__item"><a class="nav__link" href="javascript:void(0);" data-scroll-nav="3">Результаты</a></li>
+                    <li class="nav__item"><a class="nav__link" href="javascript:void(0);">Отзывы</a></li>
+                    <li class="nav__item"><a class="nav__link" href="javascript:void(0);">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="main__overlay"></div>
+            <video class="main__video-bg" autoplay="" loop="" muted="" poster="images/poster.jpg" playsinline="" webkit-playinginline="">
+                <source src="video/video-bg.mp4" type="video/mp4">
+            </video>
+            <p class="main__subtitle">Портал дистанционного обучения</p>
+            <h1 class="main__title">Национальный проект &laquo;Безопасные и качественные автомобильные дороги&raquo;</h1>
+            
+            <a href="javascript:void(0);" class="main__button-link">
+                <span class="main__button-text">Вход</span>
+            </a>
+            <a href="javascript:void(0);" class="main__arrow-link" data-scroll-nav="1">
+                <div class="main__arrow">&or;</div>
+            </a>
+        </main>
+        <div class="programs" data-scroll-index="1">
+            <h2 class="programs__title">Дополнительные профессиональные программы</h2>
+            <p class="programs__subtitle">Программы обучения, предназначенные к изучению в рамках Национального проекта &laquo;Безопасные и&nbsp;качественные автомобильные дороги&raquo;.</p>
+            <ul class="programs__list">
+                <a class="programs__link" href="javascript:void(0);">
+                    <li class="programs__item">
+                        <img class="programs__item-img" src="images/vvodnyi.png" alt="Транспорт">
+                        <p class="programs__item-title">Вводный курс</p>
+                    </li>
+                </a>
+                <a class="programs__link" href="javascript:void(0);">
+                    <li class="programs__item">
+                        <img class="programs__item-img" src="images/kzwc.png" alt="КЖЦ">
+                        <p class="programs__item-title">Контракты жизненного цикла</p>
+                    </li>
+                </a>
+                <a class="programs__link" href="javascript:void(0);">
+                    <li class="programs__item">
+                        <img class="programs__item-img" src="images/skdf.png" alt="СКДФ">
+                        <p class="programs__item-title">Система контроля дорожных фондов</p>
+                    </li>
+                </a>
             </ul>
         </div>
-        <div class="main__overlay"></div>
-        <video class="main__video-bg" autoplay="" loop="" muted="" poster="images/poster.jpg" playsinline="" webkit-playinginline="">
-            <source src="video/video-bg.mp4" type="video/mp4">
-        </video>
-        <p class="main__subtitle">Портал дистанционного обучения</p>
-        <h1 class="main__title">Национальный проект &laquo;Безопасные и качественные автомобильные дороги&raquo;</h1>
         
-        <a href="javascript:void(0);" class="main__button-link">
-            <span class="main__button-text">Вход</span>
-        </a>
-        <a href="javascript:void(0);" class="main__arrow-link" data-scroll-nav="1">
-            <div class="main__arrow">&or;</div>
-        </a>
-    </main>
-    <div class="programs" data-scroll-index="1">
-        <h2 class="programs__title">Дополнительные профессиональные программы</h2>
-        <p class="programs__subtitle">Программы обучения, предназначенные к изучению в рамках Национального проекта &laquo;Безопасные и&nbsp;качественные автомобильные дороги&raquo;.</p>
-        <ul class="programs__list">
-            <a class="programs__link" href="javascript:void(0);">
-                <li class="programs__item">
-                    <img class="programs__item-img" src="images/vvodnyi.png" alt="Транспорт">
-                    <p class="programs__item-title">Вводный курс</p>
-                </li>
-            </a>
-            <a class="programs__link" href="javascript:void(0);">
-                <li class="programs__item">
-                    <img class="programs__item-img" src="images/kzwc.png" alt="Транспорт">
-                    <p class="programs__item-title">Контракты жизненного&nbsp;цикла</p>
-                </li>
-            </a>
-            <a class="programs__link" href="javascript:void(0);">
-                <li class="programs__item">
-                    <img class="programs__item-img" src="images/skdf.png" alt="Транспорт">
-                    <p class="programs__item-title">Система контроля дорожных фондов</p>
-                </li>
-            </a>
+        <div class="discription">
+            <h2 class="discription__title" data-scroll-index="2">О проекте</h2>
+        </div>
 
+        <div class="partners">
+            <h2 class="partners__title">Организаторы обучения</h2>
+            <ul class="partners__list">
+                <li class="partners__item">
+                    <img class="partners__item-img" src="images/mintrans-black.png" alt="Минтранс">
+                    <img class="partners__item-img-color" src="images/mintrans.png" alt="Минтранс">
+                </li>
+                <li class="partners__item">
+                    <img class="partners__item-img" src="images/rosdornii-black.png" alt="Росдорнии">
+                    <img class="partners__item-img-color" src="images/rosdornii.png" alt="Росдорнии">
+                </li>
+                <li class="partners__item">
+                    <img class="partners__item-img" src="images/rut-black.png" alt="РУТ">
+                    <img class="partners__item-img-color" src="images/rut.png" alt="РУТ">
+                </li>
+            </ul>
+        </div>
 
-    </div>
+        <section class="numbers" data-scroll-index="3">
+            <h2 class="numbers__title">Текущие результаты</h2>
+            <ul class="cards">
+                <li class="cards__item">
+                    <img class="cards__picture" src="./images/education.png" alt="Без отрыва от производства">
+                    <p class="count">3</p>
+                    <p class="cards__main-text">Программы</p>
+                </li>
+                <li class="cards__item">
+                    <img class="cards__picture" src="./images/analysis.png" alt="Без отрыва от производства">
+                    <p class="count">1299</p>
+                    <p class="cards__main-text">Участники</p>
+                </li>
+                <li class="cards__item">
+                    <img class="cards__picture" src="./images/planet.png" alt="Без отрыва от производства">
+                    <p class="count">75</p>
+                    <p class="cards__main-text">Регионы</p>
+                </li>
+                <li class="cards__item">
+                    <img class="cards__picture" src="./images/computer.png" alt="Без отрыва от производства">
+                    <p class="count">15</p>
+                    <p class="cards__main-text">Эксперты</p>
+                </li>
+            </ul>
+        </section>
 
 
 
